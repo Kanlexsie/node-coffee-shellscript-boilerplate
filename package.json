@@ -1,0 +1,27 @@
+{
+  "name": "node-shellscript",
+  "version": "1.0.0",
+  "description": "a simple template for writing shellscripts in node with coffeescript",
+  "main": "main.js",
+  "scripts": {
+    "test": "cake test"
+  },
+  "keywords": [
+    "shell",
+    "cli"
+  ],
+  "author": "Andreas Koerner <andi@jaak.de>",
+  "license": "BSD",
+  "dependencies": {
+    "commander": "^2.5.0",
+    "inquirer": "^0.8.0",
+    "shelljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
