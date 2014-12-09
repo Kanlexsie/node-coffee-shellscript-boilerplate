@@ -2,7 +2,12 @@
   "name": "node-shellscript",
   "version": "1.0.0",
   "description": "a simple template for writing shellscripts in node with coffeescript",
+  "license" : "MIT",
   "main": "main.js",
+  "repository" : { 
+    "type" : "git", 
+    "url" : "https://github.com/andik/node-coffee-shellscript-boilerplate.git"
+    },
   "scripts": {
     "test": "cake test"
   },
